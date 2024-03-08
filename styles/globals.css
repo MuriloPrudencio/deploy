@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: #fff;
+  text-align: -webkit-center;
+}
+
+
+/*Alterando o estilo da barra de rolagem*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent; 
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #EFA144; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ca8734; 
+}
+
+a, button {
+  cursor: pointer;
+}
+
+
+/*Carousel Lib*/
+.gyLpoe {
+  padding: 0px!important;
+}
+
+.carousel {
+  width: 25%!important;
+}
+
+.carousel.carousel-slider {
+  width: 100%!important;
+}
+
+.carousel-root {
+  display: flex;
+}
+
+ul.thumbs.animated {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.hwqtKd {
+  margin: auto;
+}
+
+.gJcxNC {
+  display: flex;
+}
+
+.swiper-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-thumbnails {
+  display: flex;
+  flex-direction: column;
+  margin-right: 35px;
+  align-items: center;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+ul.thumbs li.thumb {
+  width: 100%!important;
+}
+
+ul.thumbs li.thumbul img {
+  border-radius: 5%;
+}
+
+.carousel .slide img {
+  width: 100%!important;
+  vertical-align: top;
+  border: 0;
+  border-radius: 10px;
+}
+
+.carousel-status {
+  display: none;
+}
+
+.carousel .thumb {
+  border: none!important;
+}
+
+.carousel img {
+  border-radius: 10px;
+  margin: .35em 0em;
+}
+
+.carousel.carousel-slider {
+  overflow: visible!important;
+}
+
+.carousel .control-dots {
+  bottom: -35px!important;
+}
+
+.carousel .control-dots .dot {
+  background: #EFA144!important;
+}
+
+.carousel .control-next.control-arrow, 
+.carousel .control-prev.control-arrow {
+  display: none;
+}
+
+ul.thumbs {
+  transform: translate3d(0px, 0px, 0px)!important;
+}
+
+.slick-track {
+  display: flex;
+  justify-content: space-between;
+}
+
+button.slick-arrow.slick-next, button.slick-arrow.slick-prev {
+  display: none!important;
+}
+
+.DfDUN:disabled {
+  cursor: unset;
+  fill: #ffffff55!important;
+}
+
+.DfDUN {
+  fill: #fff!important;
+}
+
+button#pagination-next-page, button#pagination-last-page {
+  fill: #fff!important;
+}
+
+.css-1u9des2-indicatorSeparator {
+  background-color: #000000!important;
+}
+
+.css-eqrcxv-control{
+  border-color: #000000!important;
+}
+
+.css-1fdsijx-ValueContainer {
+  padding: 0px 0px!important;
+  margin-top: 0.25em;
+}
+
+@media only screen and (max-width: 1120px) {
+  .thumbs-wrapper.axis-vertical {
+    display: none !important;
+  }
+
+  .carousel-container {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .carousel-thumbnails{
+    display: none!important;
+  }
+}
